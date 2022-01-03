@@ -10,8 +10,14 @@ Repo source: https://github.com/machadop1407/MERN-Beginners
 
 
 
-## Web-app Screenshots
+## Features/ functions: Add New Friend & Show All Friends:
 
-### Features/ functions: Add New Friend & Show All Friends:
+### Web-app Screenshots
+
+### Front-end 
 
 <img width="500" alt="img" src="https://github.com/siangyin/MERN-01-beginner/blob/main/refImg/home.png?raw=true">
+
+### Back-end 
+
+<img width="500" alt="img" src="https://github.com/siangyin/MERN-01-beginner/blob/main/refImg/back-end.png?raw=true">
