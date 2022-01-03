@@ -4,8 +4,12 @@ const app = express();
 const PORT = process.env.PORT || 3030;
 const connectDB = require("./db/connectDB");
 const UserModel = require("./models/Users");
+const cors = require("cors");
 
+// require to pass json data to db & Content-Type: application/json
 app.use(express.json());
+// to connect with front-end react
+app.use(cors());
 
 app.get("/getUsers", async (req, res) => {
 	const users = await UserModel.find({});
